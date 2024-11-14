@@ -11,6 +11,8 @@
     "server": "npx json-server --watch ./server.json -p 3333"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.60.2",
+    "@tanstack/react-query-devtools": "^5.60.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "zod": "^3.23.8"
