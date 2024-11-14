@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Learn React",
+      "description": "Learn React by building a simple todo app",
+      "done": false
+    },
+    {
+      "id": 2,
+      "title": "Learn Node",
+      "description": "Learn Node by building a simple todo app",
+      "done": false
+    },
+    {
+      "id": 3,
+      "title": "Learn GraphQL",
+      "description": "Learn GraphQL by building a simple todo app",
+      "done": false
+    }
+  ]
+}
