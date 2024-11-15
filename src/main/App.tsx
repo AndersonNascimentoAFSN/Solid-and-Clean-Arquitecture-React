@@ -1,11 +1,11 @@
-import { Provider } from './providers'
+import { Routes } from './routes'
 
 import '../presentation/styles/global.css'
 
 export function App() {
   return (
     <>
-      <Provider />
+      <Routes />
     </>
   )
 }

@@ -1,10 +1,10 @@
-import { MakeHome } from "../factories/view/home-factory";
+import { ReactNode } from "react";
 import { Providers } from "./Providers";
 
-export function Provider() {
+export function Provider({ children }: { children: ReactNode }) {
   return (
     <Providers>
-      <MakeHome />
+      {children}
     </Providers>
   )
 }
