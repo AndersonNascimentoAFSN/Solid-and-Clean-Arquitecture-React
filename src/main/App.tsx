@@ -1,11 +1,11 @@
-import { MakeHome } from "./factories/view/home-factory";
+import { Routes } from './routes'
 
 import '../presentation/styles/global.css'
 
 export function App() {
   return (
     <>
-      <MakeHome />
+      <Routes />
     </>
   )
 }
